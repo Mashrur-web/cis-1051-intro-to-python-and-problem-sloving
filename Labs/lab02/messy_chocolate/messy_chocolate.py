@@ -1,0 +1,7 @@
+weight = float(input("Enter your weight in pounds: "))
+height = float(input("Enter your height in inches: "))
+age = float(input("Enter your age: "))
+bmr_female = 655.1 + (4.35 * weight) + (4.7 * height) - (4.7 * age)
+bmr_male = 66 + (6.2 * weight) + (12.7 * height) - (6.76 * age)
+print("The BMR for a male is", bmr_male)
+print("The BMR for a female is", bmr_female)
